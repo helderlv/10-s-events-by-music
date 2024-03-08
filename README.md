@@ -1,4 +1,4 @@
-# Projet de Visualisation de données MusicMosaic
+# Projet de Visualisation de données 10's events by music
 
 ## Contexte
 Nos données proviennent du site Kaggle et ces données sont créer par LEONARDO HENRIQUE, il a crée cette dataset de la source http://organizeyourmusic.playlistmachinery.com/ qui est propulsé par l' http://spotify.com/. Son but c'est de savoir Les meilleures chansons PAR ANNÉE dans le monde par Spotify. Cet ensemble de données comporte plusieurs variables sur les chansons et est basé sur Billboard.
