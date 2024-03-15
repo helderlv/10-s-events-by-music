@@ -18,7 +18,7 @@ Ce projet se concentre sur l'analyse des chansons les plus populaires de la dern
     - label (label musical)
     - youtube_views (nombre de vues sur YouTube)
     - streaming_count (nombre de streams)
-    - 
+     
 - **Type** :
     - title, artist, country, language, label: chaîne de caractères
     - year, youtube_views, streaming_count: entier
@@ -28,10 +28,10 @@ Ce projet se concentre sur l'analyse des chansons les plus populaires de la dern
 - Format : Ces données permettent de relier les chansons aux événements qui se sont produits la même année.
 - Attributs : Les données de liaison peuvent inclure des identifiants uniques pour chaque chanson et chaque événement, ainsi qu'une référence à l'année correspondante.
 - Type de données : Les données de liaison peuvent être des entiers (identifiants), des chaînes de caractères (années), etc.
-- 
+
 ### But
  
-Ce projet vise à présenter une sélection représentative d'une musique marquante par année de la décennie 2010-2019, accompagnée d'événements significatifs de chaque année. À travers une expérience interactive de type "scroll telling", les utilisateurs pourront explorer ces musiques emblématiques et découvrir les événements culturels, sociaux ou politiques qui ont marqué chaque année. En combinant des éléments visuels variés tels que des graphiques interactifs, des extraits audio et des vidéos d'archives, nous offrons une plongée immersive dans la culture et l'histoire de cette période.
+Ce projet vise à présenter une sélection représentative d'une musique marquante par année de la décennie 2010-2019, accompagnée d'événements significatifs de chaque année. À travers une expérience interactive de type "scroll telling", les utilisateurs pourront explorer ces musiques emblématiques et découvrir les événements culturels, sociaux ou politiques qui ont marqué chaque année. En combinant des éléments visuels variés tels que des graphiques et des extraits audio, nous offrons une plongée immersive dans la culture et l'histoire de cette période.
  
 ## Références
  
