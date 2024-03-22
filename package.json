@@ -1,0 +1,15 @@
+{
+  "name": "10-s-events-by-music",
+  "version": "1.0.0",
+  "description": "Ce projet se concentre sur l'analyse des chansons les plus populaires de la dernière décennie afin d'identifier leur impact sur les événements culturels et sociaux de l'époque. Les chansons sélectionnées sont celles qui étaient largement connues et écoutées pendant leurs années de sortie respectives. L'objectif est de comprendre comment la musique a pu influencer les tendances culturelles, les mouvements sociaux et les événements marquants de chaque période.",
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "parcel src/index.html",
+"build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
