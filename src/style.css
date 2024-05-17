@@ -352,3 +352,20 @@ label {
   display: flex;
   justify-content: space-evenly;
 }
+
+.legendeGraph {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+#youTube {
+  color: #FF0000;
+  font-size: medium;
+}
+
+#spotify {
+  color: #1DB954;
+  font-size: medium;
+}
