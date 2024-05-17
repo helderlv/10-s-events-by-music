@@ -1,0 +1,354 @@
+/* style.css */
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'M PLUS 2', sans-serif;
+  color: #4C4158;
+}
+
+.section {
+  /* Ici, tu ajoutes le CSS directement dans la balise <style> */
+  margin: 0;
+  /* Cela enlève la marge par défaut du navigateur */
+  height: 100vh;
+  /* Utilise 100% de la hauteur de la fenêtre de visualisation */
+  /* gap: 200px; */
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw !important;
+}
+
+.graph {
+  /* Ici, tu ajoutes le CSS directement dans la balise <style> */
+  margin: 0;
+  /* Cela enlève la marge par défaut du navigateur */
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+/* Titre */
+#titre-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 100vh;
+}
+
+#titre-section>* {
+  margin: 2rem 4rem;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+
+.right {
+  width: 40%;
+}
+
+#title {
+  display: block;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #4C4158;
+}
+
+.texte-bienvenue {
+  color: #4C4158;
+  font-family: "M PLUS 2";
+  font-size: 2rem !important;
+  font-weight: 500;
+  width: 80%;
+}
+
+#signature {
+  margin-left: 15%;
+}
+
+/* Animations */
+#pinContenaire {
+  width: 100%;
+  height: 100vh;
+  /* Use viewport height for full-screen effect */
+  /* overflow: hidden; */
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  /* background-color: #000; */
+}
+
+#slideContainer {
+  width: 1300%;
+  /* Adjusted to accommodate 10 panels, each with 10% of window width */
+  height: 100%;
+}
+
+.panel {
+  width: 7.69%;
+  /* Adjusted to 10% for 10 panels */
+  float: left;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  color: white;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+
+.disc {
+  /* display: inline; */
+  width: 50vmin;
+  height: 50vmin;
+  margin: 2em;
+  border-radius: 50%;
+  -webkit-animation: spin 6s linear infinite;
+  animation: spin 6s linear infinite;
+  box-shadow: 0 0 4em white;
+  /* Add the following properties to position the disc more to the right */
+  position: static;
+  right: 2em;
+}
+
+.disc:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.disc:nth-child(1) {
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+
+.disc:nth-child(2) {
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+
+.disc:nth-child(3) {
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+
+.disc:nth-child(4) {
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+
+.disc:nth-child(5) {
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+.record.black {
+  background-color: #D4AF37;
+  background-image: radial-gradient(circle, #ccc 0, #ccc 1.8%, rgba(10, 10, 10, 0.25) 0, rgba(10, 10, 10, 0.25) 24%, rgba(255, 255, 255, 0) 24%, rgba(255, 255, 255, 0) 100%), conic-gradient(rgba(255, 255, 255, 0.15) 0, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.25) 8%, rgba(255, 255, 255, 0.25) 18%, rgba(255, 255, 255, 0.05) 24%, rgba(255, 255, 255, 0.05) 32%, rgba(255, 255, 255, 0.1) 34%, rgba(255, 255, 255, 0.1) 42%, rgba(255, 255, 255, 0.05) 46%, rgba(255, 255, 255, 0.05) 56%, rgba(255, 255, 255, 0.15) 64%, rgba(255, 255, 255, 0.15) 69%, rgba(255, 255, 255, 0.05) 72%, rgba(255, 255, 255, 0.05) 81%, rgba(255, 255, 255, 0.1) 84%, rgba(255, 255, 255, 0.1) 86%, rgba(255, 255, 255, 0.05) 90%, rgba(255, 255, 255, 0.05) 95%, rgba(255, 255, 255, 0.15) 98%, rgba(255, 255, 255, 0.15) 100%), radial-gradient(circle, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 29%, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 34.5%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 42%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 42.5%, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 48%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 48.25%, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 54.5%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 59%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 59.5%, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 68%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 100%);
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+
+  ;
+
+}
+
+.fin {
+
+  /* Ici, tu ajoutes le CSS directement dans la balise <style> */
+  margin: 0;
+  /* Cela enlève la marge par défaut du navigateur */
+  height: 100vh;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.d {
+  /* background: linear-gradient(90deg, #62CDCF -13.11%, #622562 126.01%); */
+  background: linear-gradient(90deg, rgba(98, 205, 207, 0.5) 0%, rgba(98, 37, 98, 0.5) 100%);
+
+
+}
+
+.g {
+  background: linear-gradient(90deg, #B0A3BB 0%, #B0DDE1 100%);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texte {
+  color: #4C4158;
+  font-size: 16px;
+  width: 30%;
+  text-align: justify;
+  margin-right: 2rem;
+}
+
+.annee>span:nth-child(2) {
+  color: white;
+}
+
+.line {
+  display: flex;
+  /* Afficher sur sa propre ligne */
+  font-size: 10em;
+  /* Taille du texte */
+  font-weight: 600;
+  /* Texte en gras */
+  color: #B0DDE1;
+  opacity: 30%;
+  /* Couleur du texte */
+  line-height: 0.8;
+  /* Ajuster l'espacement entre les lignes si nécessaire */
+}
+
+.lined {
+  display: flex;
+  /* Afficher sur sa propre ligne */
+  font-size: 10em;
+  /* Taille du texte */
+  font-weight: 600;
+  /* Texte en gras */
+  color: #B0A3BB;
+  opacity: 30%;
+  /* Couleur du texte */
+  line-height: 0.8;
+}
+
+.cover {
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song-title {
+  color: #4C4158;
+}
+
+.coverContainer {
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
+.coverContainer:hover {
+  transform: scale(1.1);
+}
+
+.coverContainer:hover .boutonContainer {
+  display: flex;
+  background-color: #b299b5c4;
+  cursor: pointer;
+}
+
+.boutonContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s ease-in-out;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48;
+  font-size: 75px !important;
+}
+
+.svg-container {
+  margin: auto;
+  /* Pour centrer horizontalement */
+  display: block;
+  /* Pour que le margin: auto fonctionne */
+}
+
+.legend {
+  font-family: Arial, sans-serif;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+audio {
+  display: none;
+  /* Cache le lecteur audio */
+}
+
+.GraphTitle {
+  position: absolute;
+  width: 100vw;
+  align-self: start;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-left: 5vw;
+  color: #4C4158;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  width: 11vw;
+  color: #4C4158;
+}
+
+#section-2020 {
+  justify-content: space-evenly;
+}
+
+.monSVG {
+  display: flex;
+  flex-direction: column;
+}
+
+.tooltip {
+  color: #4C4158;
+}
+
+#section-2021 {
+  display: flex;
+  justify-content: space-evenly;
+}

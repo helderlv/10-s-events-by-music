@@ -1,0 +1,16 @@
+/* Style pour la légende */
+.legend {
+  font-family: Arial, sans-serif;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
