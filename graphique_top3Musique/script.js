@@ -1,10 +1,11 @@
 export function lastSlide(data2, titre) {
   const data = data2
+
     .sort((a, b) => b.Spotify - a.Spotify) // Sort in descending order based on Spotify value
     .slice(0, 3) // Get the first three entries
     .map(item => ({
       name: item.NomDuTitre,
-      value: item.Spotify+item.Youtube
+      value: item.Spotify
     }));
 
   let diameter = 600,
